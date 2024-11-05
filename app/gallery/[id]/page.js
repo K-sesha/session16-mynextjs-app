@@ -3,6 +3,7 @@ import {notFound} from 'next/navigation';
 import Image from 'next/image';
 import {use} from 'react';
 import { sculptureList } from "../../data/list.js";
+export const runtime = "edge";
 
 export default function GalleryItem({params}){
   // get the param from the url
